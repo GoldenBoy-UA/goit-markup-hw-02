@@ -1,12 +1,19 @@
 /*Основний шрифт*/
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto' 'Raleway', sans-serif;
+  color: #212121;
+  font-style: normal;
+  font-weight: 500;
+  /* Портфоліо */
 
-  font-family: 'Roboto', sans-serif;
+  position: relative;
+  width: 1600px;
+  height: 1880px;
+
+  background: #ffffff;
 }
 /*logo style element*/
 .logo-style {
-  color: black;
   position: absolute;
   width: 145px;
   height: 31px;
@@ -68,55 +75,58 @@ ul {
 a {
   text-decoration-line: none;
 }
-/*adress style and hover focus*/
+/*adress style, fonts and hover focus*/
 .contact-mail {
   position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 
-color: #2196F3;
+  color: #2196f3;
 }
 .contact-tel {
   position: absolute;
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 
-color: #757575;
+  color: #757575;
 }
-/*button style and hover focus*/
+/*button style, fonts and hover focus*/
+button {
+  cursor:pointer
+}
 .button-inline1 {
   position: absolute;
   width: 73px;
   height: 38px;
   left: 512px;
   top: 174px;
- background: #f5f4fa;
+  background: #f5f4fa;
 
- 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
   /* shadow-middle */
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-.button-inline1:hover {
+.button-inline1:hover,
+:focus {
   background: #2196f3;
   color: #f5f4fa;
 }
@@ -128,12 +138,19 @@ color: #757575;
   top: 174px;
   background: #f5f4fa;
 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
   /* shadow-middle */
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-.button-inline2:hover {
+.button-inline2:hover,
+:focus {
   background: #2196f3;
   color: #f5f4fa;
 }
@@ -145,21 +162,36 @@ color: #757575;
   top: 174px;
   background: #f5f4fa;
 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
   /* shadow-middle */
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-.button-inline3:hover {
+.button-inline3:hover,
+:focus {
   background: #2196f3;
   color: #f5f4fa;
 }
-.button-inline4 {
+
+.button-inline4,
+:focus {
   position: absolute;
   width: 103px;
   height: 38px;
   left: 846px;
   top: 174px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
 
   background: #f5f4fa;
   /* shadow-middle */
@@ -167,7 +199,8 @@ color: #757575;
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-.button-inline4:hover {
+.button-inline4:hover,
+:focus {
   background: #2196f3;
   color: #f5f4fa;
 }
@@ -178,13 +211,218 @@ color: #757575;
   left: 957px;
   top: 174px;
 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
   background: #f5f4fa;
-    /* shadow-middle */
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-.button-inline5:hover {
+.button-inline5:hover,
+:focus {
   background: #2196f3;
   color: #f5f4fa;
+}
+
+/*portfolio desing, style box*/
+.portfolio1 {
+  /* container bg */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.portfolio2 {
+  /* container bg */
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 262px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.portfolio3 {
+  /* container bg */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 262px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.portfolio4 {
+  /* container bg */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 696px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.portfolio5 {
+  /* container bg */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 696px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.portfolio6 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 696px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.portfolio7 {
+  /* container bg */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 1130px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.portfolio8 {
+  /* container bg */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 1130px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.portfolio9 {
+  /* container bg */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 1130px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+/*style futer background*/
+.footer-style {
+  /* Footer bg */
+
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+
+  background: #2f303a;
+}
+/*footer adress*/
+.address-footer {
+  /* м. Київ, пр-т Лесі Українки, 26 */
+
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 1739px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.mail-footer {
+  /* info@example.com */
+
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 1769px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.tel-footer {
+  /* +38 096 111 11 11 */
+
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 1799px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
