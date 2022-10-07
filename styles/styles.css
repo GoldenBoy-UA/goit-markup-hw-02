@@ -15,16 +15,6 @@ body {
 /*logo style element*/
 .logo-style {
   position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
 
   /* identical to box height */
   letter-spacing: 0.03em;
@@ -33,26 +23,12 @@ body {
   color: #2196f3;
 }
 /*navigation bord and style*/
-.navigation-studia {
-  list-style: none;
-  position: absolute;
-  width: 45px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-}
+
 .navigation-studia:hover,
 :focus {
   color: #2196f3;
 }
 
-.navigation-portfolio {
-  position: absolute;
-  width: 72px;
-  height: 16px;
-  left: 548px;
-  top: 32px;
-}
 .navigation-portfolio:hover,
 :focus {
   color: #2196f3;
