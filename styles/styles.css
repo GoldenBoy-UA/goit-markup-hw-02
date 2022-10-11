@@ -10,8 +10,9 @@
   --footer-text-color: rgba(47, 48, 58, 0.6);
   --background-footer-color: #2f303a;
   --background-section: #e5e5e5;
+  --background-article: #ffffff;
   --line-color: #ececec;
-  --background-color: #F5F5F5;
+  --background-color: #f5f5f5;
   --icon-color: #afb1b8;
   --main-font: Roboto, sans-serif;
 }
@@ -24,7 +25,395 @@ body {
 }
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 ul {
   list-style-type: none;
+}
+/*Лого та його стиль*/
+.logo-style {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+}
+.logo-web-style {
+  color: #2196f3;
+}
+/*Загальні стилі навігацій*/
+.nav-all {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.nav-studia:hover {
+  color: #2196f3;
+}
+.nav-studia:focus {
+  color: #2196f3;
+}
+.nav-portfolio:hover {
+  color: #2196f3;
+}
+.nav-portfolio:focus {
+  color: #2196f3;
+}
+.nav-contacts:hover {
+  color: #2196f3;
+}
+.nav-contacts:focus {
+  color: #2196f3;
+}
+/*Загальні стилі адрес в хедері*/
+.cont-mail {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.cont-mail:focus {
+  color: #2196f3;
+}
+.cont-mail:hover {
+  color: #2196f3;
+}
+.cont-tel {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.cont-tel:focus {
+  color: #2196f3;
+}
+.cont-tel:hover {
+  color: #2196f3;
+}
+/*Кнопка взаємодії в студії*/
+.button-studia {
+  width: 216px;
+height: 50px;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  
+  /* identical to box height, or 188% */
+  letter-spacing: 0.06em;
+  
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  
+  
+}
+
+/*Кнопки взаємодії та титульна, портфоліо*/
+.h1-hide {
+  height: 1px;
+  width: 0px;
+  opacity: 0;
+}
+.button-inline1 {
+  cursor: pointer;
+  width: 125px;
+  height: 38px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  /*Шрифти в кнопці*/
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button-inline2 {
+  cursor: pointer;
+  width: 125px;
+  height: 38px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  /*Шрифти в кнопці*/
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button-inline3 {
+  cursor: pointer;
+  width: 125px;
+  height: 38px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  /*Шрифти в кнопці*/
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button-inline4 {
+  cursor: pointer;
+  width: 125px;
+  height: 38px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  /*Шрифти в кнопці*/
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button-inline5 {
+  cursor: pointer;
+  width: 125px;
+  height: 38px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  /*Шрифти в кнопці*/
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button-inline1:focus {
+  background: #2196f3;
+
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.button-inline1:hover {
+  background: #2196f3;
+
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.button-inline2:focus {
+  background: #2196f3;
+
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.button-inline2:hover {
+  background: #2196f3;
+
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.button-inline3:focus {
+  background: #2196f3;
+
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.button-inline3:hover {
+  background: #2196f3;
+
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.button-inline4:focus {
+  background: #2196f3;
+
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.button-inline4:hover {
+  background: #2196f3;
+
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.button-inline5:focus {
+  background: #2196f3;
+
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.button-inline5:hover {
+  background: #2196f3;
+
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+/*Секція зображень - основний стиль*/
+.image-section-title {
+  ont-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+.figcaption-second-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  /* identical to box height, or 188% */
+  letter-spacing: 0.03em;
+
+  color: var(--ouwer-text-color);
+}
+/*Стиль коробочки зображення*/
+.portfolio1 {
+  background: var(--background-article);
+  border: 1px solid #eeeeee;
+}
+.portfolio2 {
+  background: var(--background-article);
+  border: 1px solid #eeeeee;
+}
+.portfolio3 {
+  background: var(--background-article);
+  border: 1px solid #eeeeee;
+}
+.portfolio4 {
+  background: var(--background-article);
+  border: 1px solid #eeeeee;
+}
+.portfolio5 {
+  background: var(--background-article);
+  border: 1px solid #eeeeee;
+}
+.portfolio6 {
+  background: var(--background-article);
+  border: 1px solid #eeeeee;
+}
+.portfolio7 {
+  background: var(--background-article);
+  border: 1px solid #eeeeee;
+}
+.portfolio8 {
+  background: var(--background-article);
+  border: 1px solid #eeeeee;
+}
+.portfolio9 {
+  background: var(--background-article);
+  border: 1px solid #eeeeee;
+}
+/*Стилі футера, лого та адрес*/
+.footer-style {
+  text-decoration: none;
+  background-color: var(--background-footer-color);
+}
+.logo-style-footer {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.adress-fotter {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.adress-fotter:visited {
+  color: #ffffff;
+}
+.footer-mail {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
