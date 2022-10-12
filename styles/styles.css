@@ -118,13 +118,20 @@ height: 50px;
   /* identical to box height, or 188% */
   letter-spacing: 0.06em;
   
+  background: #f5f4fa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.button-studia:focus {
   background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  
-  
 }
-
+.button-studia:hover {
+  background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
 /*Кнопки взаємодії та титульна, портфоліо*/
 .h1-hide {
   height: 1px;
